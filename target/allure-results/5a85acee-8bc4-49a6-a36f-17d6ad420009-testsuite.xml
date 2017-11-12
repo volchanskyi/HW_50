@@ -1,0 +1,2809 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1510479930076" stop="1510479931562" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1510479930358" stop="1510479930407" status="passed">
+            <name>cvv[VISA,4532-5471-0699-4816,03/15,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930418" stop="1510479930421" status="passed">
+            <name>cvv[MasterCard,5128946914605621,09/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930425" stop="1510479930428" status="passed">
+            <name>cvv[American Express,344259201906721,03/22,1234]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930432" stop="1510479930435" status="passed">
+            <name>cvv[American Express,371792656868232,03/16,1234]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930439" stop="1510479930452" status="passed">
+            <name>cvv[American Express,343515603411680,03/15,1234]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930469" stop="1510479930472" status="passed">
+            <name>cvv[American Express,37261536518254,03/21,1234]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930477" stop="1510479930480" status="passed">
+            <name>cvv[American Express,343135671066264,03/21,1234]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930484" stop="1510479930487" status="passed">
+            <name>cvv[American Express,3561598966880,03/21,1234]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930491" stop="1510479930519" status="failed">
+            <name>cvv[American Expres,341632186805618,03/21,1234]</name>
+            <failure>
+                <message>AssertionError: 
+Expected: Credit Card CVV: 1234, should be valid
+     but: was &lt;false&gt;</message>
+                <stack-trace>java.lang.AssertionError: 
+Expected: Credit Card CVV: 1234, should be valid
+     but: was &lt;false&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.cvv(CreditCardValidationTest.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930524" stop="1510479930526" status="passed">
+            <name>cvv[VISA,4532-5471-0699-4816,03/21,174]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930530" stop="1510479930532" status="passed">
+            <name>cvv[Discover,6011-0197-1148-6286,02/18,154]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930536" stop="1510479930538" status="passed">
+            <name>cvv[Discover,6495-5046-4029-1126,02/18,357]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930546" stop="1510479930551" status="passed">
+            <name>cvv[Discover,6229256965254832,02/18,354]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930555" stop="1510479930557" status="passed">
+            <name>cvv[Discover,6011077105446506,02/18,354]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930561" stop="1510479930565" status="passed">
+            <name>cvv[Discover,6011192042419415,02/18,354]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930569" stop="1510479930572" status="passed">
+            <name>cvv[Discov,6011724928833820,02/18,354]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930576" stop="1510479930579" status="passed">
+            <name>cvv[Discover,601156785254340,02/18,354]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930582" stop="1510479930586" status="passed">
+            <name>cvv[Discover,6581185726028247,02/16,145]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930589" stop="1510479930591" status="passed">
+            <name>cvv[MasterCard,5248-6433-5421-6358,11/19,154]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930594" stop="1510479930598" status="passed">
+            <name>cvv[MasterCard,5169-1962-3193-8640,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930601" stop="1510479930603" status="passed">
+            <name>cvv[MasterCard,5599-6880-5206-3763,05/19,103]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930607" stop="1510479930609" status="passed">
+            <name>cvv[MasterCar,5171953247711452,01/21,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930612" stop="1510479930615" status="passed">
+            <name>cvv[MasterCard,5163365359379095,10/20,954]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930620" stop="1510479930627" status="passed">
+            <name>cvv[MasterCard,5232199338465288,05/19,143]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930638" stop="1510479930645" status="passed">
+            <name>cvv[MasterCard,5426847049094377,02/18,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930650" stop="1510479930653" status="passed">
+            <name>cvv[MasterCard,516866660165885,04/15,254]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930658" stop="1510479930659" status="passed">
+            <name>cvv[MasterCard,5278-1875-3826-7559,07/16,258]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930662" stop="1510479930664" status="passed">
+            <name>cvv[MasterCard,5334919452640144,09/21,159]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930669" stop="1510479930671" status="passed">
+            <name>cvv[VIS,4929559308222,03/15,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930673" stop="1510479930675" status="passed">
+            <name>cvv[VISA,4556134786083,03/14,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930678" stop="1510479930681" status="passed">
+            <name>cvv[VISA,491680232637,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930684" stop="1510479930687" status="passed">
+            <name>cvv[VISA,4916212843398,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930689" stop="1510479930691" status="passed">
+            <name>cvv[VISA,4716307252509,03/16,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930694" stop="1510479930696" status="passed">
+            <name>cvv[VISA,4701089159924,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930699" stop="1510479930701" status="passed">
+            <name>cvv[VISA,4916665640853,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930704" stop="1510479930706" status="passed">
+            <name>cvv[VISA,4617174213790,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930709" stop="1510479930711" status="passed">
+            <name>cvv[VISA,4716982643485,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="cvv"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930716" stop="1510479930728" status="failed">
+            <name>exp[VISA,4532-5471-0699-4816,03/15,123]</name>
+            <failure>
+                <message>AssertionError: 
+Expected: Credit Card Exp: 03/15, should be not expired
+     but: was &lt;false&gt;</message>
+                <stack-trace>java.lang.AssertionError: 
+Expected: Credit Card Exp: 03/15, should be not expired
+     but: was &lt;false&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930730" stop="1510479930732" status="passed">
+            <name>exp[MasterCard,5128946914605621,09/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930735" stop="1510479930737" status="passed">
+            <name>exp[American Express,344259201906721,03/22,1234]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930739" stop="1510479930745" status="failed">
+            <name>exp[American Express,371792656868232,03/16,1234]</name>
+            <failure>
+                <message>AssertionError: 
+Expected: Credit Card Exp: 03/16, should be not expired
+     but: was &lt;false&gt;</message>
+                <stack-trace>java.lang.AssertionError: 
+Expected: Credit Card Exp: 03/16, should be not expired
+     but: was &lt;false&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930747" stop="1510479930750" status="failed">
+            <name>exp[American Express,343515603411680,03/15,1234]</name>
+            <failure>
+                <message>AssertionError: 
+Expected: Credit Card Exp: 03/15, should be not expired
+     but: was &lt;false&gt;</message>
+                <stack-trace>java.lang.AssertionError: 
+Expected: Credit Card Exp: 03/15, should be not expired
+     but: was &lt;false&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930752" stop="1510479930754" status="passed">
+            <name>exp[American Express,37261536518254,03/21,1234]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930757" stop="1510479930759" status="passed">
+            <name>exp[American Express,343135671066264,03/21,1234]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930762" stop="1510479930768" status="passed">
+            <name>exp[American Express,3561598966880,03/21,1234]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930771" stop="1510479930773" status="passed">
+            <name>exp[American Expres,341632186805618,03/21,1234]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930779" stop="1510479930781" status="passed">
+            <name>exp[VISA,4532-5471-0699-4816,03/21,174]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930784" stop="1510479930786" status="passed">
+            <name>exp[Discover,6011-0197-1148-6286,02/18,154]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930790" stop="1510479930793" status="passed">
+            <name>exp[Discover,6495-5046-4029-1126,02/18,357]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930796" stop="1510479930797" status="passed">
+            <name>exp[Discover,6229256965254832,02/18,354]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930800" stop="1510479930802" status="passed">
+            <name>exp[Discover,6011077105446506,02/18,354]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930806" stop="1510479930808" status="passed">
+            <name>exp[Discover,6011192042419415,02/18,354]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930811" stop="1510479930814" status="passed">
+            <name>exp[Discov,6011724928833820,02/18,354]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930817" stop="1510479930818" status="passed">
+            <name>exp[Discover,601156785254340,02/18,354]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930821" stop="1510479930823" status="failed">
+            <name>exp[Discover,6581185726028247,02/16,145]</name>
+            <failure>
+                <message>AssertionError: 
+Expected: Credit Card Exp: 02/16, should be not expired
+     but: was &lt;false&gt;</message>
+                <stack-trace>java.lang.AssertionError: 
+Expected: Credit Card Exp: 02/16, should be not expired
+     but: was &lt;false&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930825" stop="1510479930827" status="passed">
+            <name>exp[MasterCard,5248-6433-5421-6358,11/19,154]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930831" stop="1510479930833" status="passed">
+            <name>exp[MasterCard,5169-1962-3193-8640,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930835" stop="1510479930838" status="passed">
+            <name>exp[MasterCard,5599-6880-5206-3763,05/19,103]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930841" stop="1510479930843" status="passed">
+            <name>exp[MasterCar,5171953247711452,01/21,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930847" stop="1510479930849" status="passed">
+            <name>exp[MasterCard,5163365359379095,10/20,954]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930852" stop="1510479930854" status="passed">
+            <name>exp[MasterCard,5232199338465288,05/19,143]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930857" stop="1510479930859" status="passed">
+            <name>exp[MasterCard,5426847049094377,02/18,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930863" stop="1510479930866" status="failed">
+            <name>exp[MasterCard,516866660165885,04/15,254]</name>
+            <failure>
+                <message>AssertionError: 
+Expected: Credit Card Exp: 04/15, should be not expired
+     but: was &lt;false&gt;</message>
+                <stack-trace>java.lang.AssertionError: 
+Expected: Credit Card Exp: 04/15, should be not expired
+     but: was &lt;false&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930868" stop="1510479930874" status="failed">
+            <name>exp[MasterCard,5278-1875-3826-7559,07/16,258]</name>
+            <failure>
+                <message>AssertionError: 
+Expected: Credit Card Exp: 07/16, should be not expired
+     but: was &lt;false&gt;</message>
+                <stack-trace>java.lang.AssertionError: 
+Expected: Credit Card Exp: 07/16, should be not expired
+     but: was &lt;false&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930877" stop="1510479930879" status="passed">
+            <name>exp[MasterCard,5334919452640144,09/21,159]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930882" stop="1510479930884" status="failed">
+            <name>exp[VIS,4929559308222,03/15,123]</name>
+            <failure>
+                <message>AssertionError: 
+Expected: Credit Card Exp: 03/15, should be not expired
+     but: was &lt;false&gt;</message>
+                <stack-trace>java.lang.AssertionError: 
+Expected: Credit Card Exp: 03/15, should be not expired
+     but: was &lt;false&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930886" stop="1510479930889" status="failed">
+            <name>exp[VISA,4556134786083,03/14,123]</name>
+            <failure>
+                <message>AssertionError: 
+Expected: Credit Card Exp: 03/14, should be not expired
+     but: was &lt;false&gt;</message>
+                <stack-trace>java.lang.AssertionError: 
+Expected: Credit Card Exp: 03/14, should be not expired
+     but: was &lt;false&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930891" stop="1510479930892" status="passed">
+            <name>exp[VISA,491680232637,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930894" stop="1510479930896" status="passed">
+            <name>exp[VISA,4916212843398,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930898" stop="1510479930901" status="failed">
+            <name>exp[VISA,4716307252509,03/16,123]</name>
+            <failure>
+                <message>AssertionError: 
+Expected: Credit Card Exp: 03/16, should be not expired
+     but: was &lt;false&gt;</message>
+                <stack-trace>java.lang.AssertionError: 
+Expected: Credit Card Exp: 03/16, should be not expired
+     but: was &lt;false&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.exp(CreditCardValidationTest.java:31)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930903" stop="1510479930905" status="passed">
+            <name>exp[VISA,4701089159924,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930907" stop="1510479930910" status="passed">
+            <name>exp[VISA,4916665640853,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930913" stop="1510479930914" status="passed">
+            <name>exp[VISA,4617174213790,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930917" stop="1510479930919" status="passed">
+            <name>exp[VISA,4716982643485,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="exp"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930922" stop="1510479930924" status="passed">
+            <name>luhn[VISA,4532-5471-0699-4816,03/15,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930942" stop="1510479930944" status="passed">
+            <name>luhn[MasterCard,5128946914605621,09/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930950" stop="1510479930953" status="passed">
+            <name>luhn[American Express,344259201906721,03/22,1234]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930956" stop="1510479930963" status="passed">
+            <name>luhn[American Express,371792656868232,03/16,1234]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930967" stop="1510479930969" status="passed">
+            <name>luhn[American Express,343515603411680,03/15,1234]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930972" stop="1510479930974" status="failed">
+            <name>luhn[American Express,37261536518254,03/21,1234]</name>
+            <failure>
+                <message>AssertionError: 
+Expected: Luhn of: 37261536518254, should be valid
+     but: was &lt;false&gt;</message>
+                <stack-trace>java.lang.AssertionError: 
+Expected: Luhn of: 37261536518254, should be valid
+     but: was &lt;false&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930976" stop="1510479930978" status="passed">
+            <name>luhn[American Express,343135671066264,03/21,1234]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930980" stop="1510479930983" status="failed">
+            <name>luhn[American Express,3561598966880,03/21,1234]</name>
+            <failure>
+                <message>AssertionError: 
+Expected: Luhn of: 3561598966880, should be valid
+     but: was &lt;false&gt;</message>
+                <stack-trace>java.lang.AssertionError: 
+Expected: Luhn of: 3561598966880, should be valid
+     but: was &lt;false&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479930985" stop="1510479930996" status="passed">
+            <name>luhn[American Expres,341632186805618,03/21,1234]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931003" stop="1510479931007" status="passed">
+            <name>luhn[VISA,4532-5471-0699-4816,03/21,174]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931010" stop="1510479931014" status="passed">
+            <name>luhn[Discover,6011-0197-1148-6286,02/18,154]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931047" stop="1510479931050" status="passed">
+            <name>luhn[Discover,6495-5046-4029-1126,02/18,357]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931053" stop="1510479931055" status="passed">
+            <name>luhn[Discover,6229256965254832,02/18,354]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931058" stop="1510479931060" status="passed">
+            <name>luhn[Discover,6011077105446506,02/18,354]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931063" stop="1510479931065" status="passed">
+            <name>luhn[Discover,6011192042419415,02/18,354]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931069" stop="1510479931072" status="passed">
+            <name>luhn[Discov,6011724928833820,02/18,354]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931074" stop="1510479931076" status="failed">
+            <name>luhn[Discover,601156785254340,02/18,354]</name>
+            <failure>
+                <message>AssertionError: 
+Expected: Luhn of: 601156785254340, should be valid
+     but: was &lt;false&gt;</message>
+                <stack-trace>java.lang.AssertionError: 
+Expected: Luhn of: 601156785254340, should be valid
+     but: was &lt;false&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931079" stop="1510479931081" status="passed">
+            <name>luhn[Discover,6581185726028247,02/16,145]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931083" stop="1510479931086" status="passed">
+            <name>luhn[MasterCard,5248-6433-5421-6358,11/19,154]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931090" stop="1510479931092" status="passed">
+            <name>luhn[MasterCard,5169-1962-3193-8640,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931096" stop="1510479931099" status="passed">
+            <name>luhn[MasterCard,5599-6880-5206-3763,05/19,103]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931102" stop="1510479931103" status="passed">
+            <name>luhn[MasterCar,5171953247711452,01/21,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931106" stop="1510479931108" status="passed">
+            <name>luhn[MasterCard,5163365359379095,10/20,954]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931110" stop="1510479931111" status="passed">
+            <name>luhn[MasterCard,5232199338465288,05/19,143]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931115" stop="1510479931118" status="passed">
+            <name>luhn[MasterCard,5426847049094377,02/18,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931123" stop="1510479931127" status="failed">
+            <name>luhn[MasterCard,516866660165885,04/15,254]</name>
+            <failure>
+                <message>AssertionError: 
+Expected: Luhn of: 516866660165885, should be valid
+     but: was &lt;false&gt;</message>
+                <stack-trace>java.lang.AssertionError: 
+Expected: Luhn of: 516866660165885, should be valid
+     but: was &lt;false&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931129" stop="1510479931130" status="passed">
+            <name>luhn[MasterCard,5278-1875-3826-7559,07/16,258]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931132" stop="1510479931133" status="passed">
+            <name>luhn[MasterCard,5334919452640144,09/21,159]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931136" stop="1510479931137" status="passed">
+            <name>luhn[VIS,4929559308222,03/15,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931140" stop="1510479931142" status="passed">
+            <name>luhn[VISA,4556134786083,03/14,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931146" stop="1510479931148" status="failed">
+            <name>luhn[VISA,491680232637,03/19,123]</name>
+            <failure>
+                <message>AssertionError: 
+Expected: Luhn of: 491680232637, should be valid
+     but: was &lt;false&gt;</message>
+                <stack-trace>java.lang.AssertionError: 
+Expected: Luhn of: 491680232637, should be valid
+     but: was &lt;false&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:41)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931150" stop="1510479931152" status="passed">
+            <name>luhn[VISA,4916212843398,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931155" stop="1510479931157" status="passed">
+            <name>luhn[VISA,4716307252509,03/16,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931159" stop="1510479931161" status="passed">
+            <name>luhn[VISA,4701089159924,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931164" stop="1510479931166" status="passed">
+            <name>luhn[VISA,4916665640853,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931169" stop="1510479931171" status="passed">
+            <name>luhn[VISA,4617174213790,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931174" stop="1510479931175" status="passed">
+            <name>luhn[VISA,4716982643485,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="luhn"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931179" stop="1510479931180" status="passed">
+            <name>type[VISA,4532-5471-0699-4816,03/15,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931185" stop="1510479931186" status="passed">
+            <name>type[MasterCard,5128946914605621,09/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931189" stop="1510479931190" status="passed">
+            <name>type[American Express,344259201906721,03/22,1234]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931193" stop="1510479931195" status="passed">
+            <name>type[American Express,371792656868232,03/16,1234]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931197" stop="1510479931198" status="passed">
+            <name>type[American Express,343515603411680,03/15,1234]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931200" stop="1510479931202" status="failed">
+            <name>type[American Express,37261536518254,03/21,1234]</name>
+            <failure>
+                <message>AssertionError: 
+Expected: Credit Card Type: American Express, should be valid
+     but: was &lt;false&gt;</message>
+                <stack-trace>java.lang.AssertionError: 
+Expected: Credit Card Type: American Express, should be valid
+     but: was &lt;false&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.type(CreditCardValidationTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931205" stop="1510479931207" status="passed">
+            <name>type[American Express,343135671066264,03/21,1234]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931211" stop="1510479931214" status="failed">
+            <name>type[American Express,3561598966880,03/21,1234]</name>
+            <failure>
+                <message>AssertionError: 
+Expected: Credit Card Type: American Express, should be valid
+     but: was &lt;false&gt;</message>
+                <stack-trace>java.lang.AssertionError: 
+Expected: Credit Card Type: American Express, should be valid
+     but: was &lt;false&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.type(CreditCardValidationTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931216" stop="1510479931218" status="failed">
+            <name>type[American Expres,341632186805618,03/21,1234]</name>
+            <failure>
+                <message>AssertionError: 
+Expected: Credit Card Type: American Expres, should be valid
+     but: was &lt;false&gt;</message>
+                <stack-trace>java.lang.AssertionError: 
+Expected: Credit Card Type: American Expres, should be valid
+     but: was &lt;false&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.type(CreditCardValidationTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931220" stop="1510479931221" status="passed">
+            <name>type[VISA,4532-5471-0699-4816,03/21,174]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931224" stop="1510479931225" status="passed">
+            <name>type[Discover,6011-0197-1148-6286,02/18,154]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931231" stop="1510479931232" status="passed">
+            <name>type[Discover,6495-5046-4029-1126,02/18,357]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931235" stop="1510479931236" status="passed">
+            <name>type[Discover,6229256965254832,02/18,354]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931242" stop="1510479931244" status="passed">
+            <name>type[Discover,6011077105446506,02/18,354]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931246" stop="1510479931248" status="passed">
+            <name>type[Discover,6011192042419415,02/18,354]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931250" stop="1510479931253" status="failed">
+            <name>type[Discov,6011724928833820,02/18,354]</name>
+            <failure>
+                <message>AssertionError: 
+Expected: Credit Card Type: Discov, should be valid
+     but: was &lt;false&gt;</message>
+                <stack-trace>java.lang.AssertionError: 
+Expected: Credit Card Type: Discov, should be valid
+     but: was &lt;false&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.type(CreditCardValidationTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931255" stop="1510479931269" status="failed">
+            <name>type[Discover,601156785254340,02/18,354]</name>
+            <failure>
+                <message>AssertionError: 
+Expected: Credit Card Type: Discover, should be valid
+     but: was &lt;false&gt;</message>
+                <stack-trace>java.lang.AssertionError: 
+Expected: Credit Card Type: Discover, should be valid
+     but: was &lt;false&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.type(CreditCardValidationTest.java:26)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931273" stop="1510479931275" status="passed">
+            <name>type[Discover,6581185726028247,02/16,145]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931279" stop="1510479931280" status="passed">
+            <name>type[MasterCard,5248-6433-5421-6358,11/19,154]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931282" stop="1510479931284" status="passed">
+            <name>type[MasterCard,5169-1962-3193-8640,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931286" stop="1510479931288" status="passed">
+            <name>type[MasterCard,5599-6880-5206-3763,05/19,103]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931290" stop="1510479931292" status="failed">
+            <name>type[MasterCar,5171953247711452,01/21,123]</name>
+            <failure>
+                <message>AssertionError: 
+Expected: Credit Card Type: MasterCar, should be valid
+     but: was &lt;false&gt;</message>
+                <stack-trace>java.lang.AssertionError: 
+Expected: Credit Card Type: MasterCar, should be valid
+     but: was &lt;false&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.type(CreditCardValidationTest.java:26)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931294" stop="1510479931295" status="passed">
+            <name>type[MasterCard,5163365359379095,10/20,954]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931298" stop="1510479931300" status="passed">
+            <name>type[MasterCard,5232199338465288,05/19,143]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931302" stop="1510479931303" status="passed">
+            <name>type[MasterCard,5426847049094377,02/18,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931305" stop="1510479931310" status="failed">
+            <name>type[MasterCard,516866660165885,04/15,254]</name>
+            <failure>
+                <message>AssertionError: 
+Expected: Credit Card Type: MasterCard, should be valid
+     but: was &lt;false&gt;</message>
+                <stack-trace>java.lang.AssertionError: 
+Expected: Credit Card Type: MasterCard, should be valid
+     but: was &lt;false&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.type(CreditCardValidationTest.java:26)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931312" stop="1510479931314" status="passed">
+            <name>type[MasterCard,5278-1875-3826-7559,07/16,258]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931317" stop="1510479931319" status="passed">
+            <name>type[MasterCard,5334919452640144,09/21,159]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931322" stop="1510479931324" status="failed">
+            <name>type[VIS,4929559308222,03/15,123]</name>
+            <failure>
+                <message>AssertionError: 
+Expected: Credit Card Type: VIS, should be valid
+     but: was &lt;false&gt;</message>
+                <stack-trace>java.lang.AssertionError: 
+Expected: Credit Card Type: VIS, should be valid
+     but: was &lt;false&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.type(CreditCardValidationTest.java:26)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931326" stop="1510479931328" status="passed">
+            <name>type[VISA,4556134786083,03/14,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931330" stop="1510479931332" status="failed">
+            <name>type[VISA,491680232637,03/19,123]</name>
+            <failure>
+                <message>AssertionError: 
+Expected: Credit Card Type: VISA, should be valid
+     but: was &lt;false&gt;</message>
+                <stack-trace>java.lang.AssertionError: 
+Expected: Credit Card Type: VISA, should be valid
+     but: was &lt;false&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.type(CreditCardValidationTest.java:26)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931334" stop="1510479931336" status="passed">
+            <name>type[VISA,4916212843398,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931339" stop="1510479931340" status="passed">
+            <name>type[VISA,4716307252509,03/16,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931343" stop="1510479931344" status="passed">
+            <name>type[VISA,4701089159924,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931346" stop="1510479931348" status="passed">
+            <name>type[VISA,4916665640853,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931352" stop="1510479931353" status="passed">
+            <name>type[VISA,4617174213790,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510479931355" stop="1510479931356" status="passed">
+            <name>type[VISA,4716982643485,03/19,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="core.CreditCardValidationTest"/>
+                <label name="testMethod" value="type"/>
+                <label name="host" value="Latitude"/>
+                <label name="thread" value="53808@Latitude.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
