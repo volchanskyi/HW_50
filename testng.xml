@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Credit Card">
+	<test name="Validation" preserve-order="true">
+		<parameter name="report" value="surefire" />
+		<groups>
+			<run>
+				<include name="type" />
+				<include name="exp" />
+				<include name="cvv" />
+				<include name="luhn" />
+			</run>
+		</groups>
+		<classes>
+			<class name="core.CreditCardValidationTest" />
+		</classes>
+	</test>
+</suite>

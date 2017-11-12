@@ -1,0 +1,92 @@
+src/main/java/core/CreditCardValidation.java:6:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/core/CreditCardValidation.java:6:	The class 'CreditCardValidation' has a Cyclomatic Complexity of 8 (Highest = 22).
+src/main/java/core/CreditCardValidation.java:6:	headerCommentRequirement Required
+src/main/java/core/CreditCardValidation.java:8:	Parameter 'cc_number' is not assigned and could be declared final
+src/main/java/core/CreditCardValidation.java:8:	Parameter 'cc_type' is not assigned and could be declared final
+src/main/java/core/CreditCardValidation.java:8:	The method 'type' has a Cyclomatic Complexity of 22.
+src/main/java/core/CreditCardValidation.java:8:	publicMethodCommentRequirement Required
+src/main/java/core/CreditCardValidation.java:9:	Local variable 'number' could be declared final
+src/main/java/core/CreditCardValidation.java:9:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/core/CreditCardValidation.java:10:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/core/CreditCardValidation.java:10:	Position literals first in String comparisons
+src/main/java/core/CreditCardValidation.java:10:	This call to String.startsWith can be rewritten using String.charAt(0)
+src/main/java/core/CreditCardValidation.java:11:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/core/CreditCardValidation.java:11:	Position literals first in String comparisons
+src/main/java/core/CreditCardValidation.java:12:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/core/CreditCardValidation.java:12:	Position literals first in String comparisons
+src/main/java/core/CreditCardValidation.java:13:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/core/CreditCardValidation.java:13:	Avoid unnecessary if..then..else statements when returning booleans
+src/main/java/core/CreditCardValidation.java:13:	Position literals first in String comparisons
+src/main/java/core/CreditCardValidation.java:17:	Parameter 'cc_number' is not assigned and could be declared final
+src/main/java/core/CreditCardValidation.java:17:	publicMethodCommentRequirement Required
+src/main/java/core/CreditCardValidation.java:18:	Local variable 'number' could be declared final
+src/main/java/core/CreditCardValidation.java:18:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/core/CreditCardValidation.java:19:	Found 'DU'-anomaly for variable 'swap' (lines '19'-'25').
+src/main/java/core/CreditCardValidation.java:22:	Avoid using Literals in Conditional Statements
+src/main/java/core/CreditCardValidation.java:24:	Useless parentheses.
+src/main/java/core/CreditCardValidation.java:27:	Parameter 'cc_exp' is not assigned and could be declared final
+src/main/java/core/CreditCardValidation.java:27:	publicMethodCommentRequirement Required
+src/main/java/core/CreditCardValidation.java:28:	Avoid variables with short names like ts
+src/main/java/core/CreditCardValidation.java:28:	Local variable 'ts' could be declared final
+src/main/java/core/CreditCardValidation.java:29:	Local variable 'exp' could be declared final
+src/main/java/core/CreditCardValidation.java:30:	Local variable 'today' could be declared final
+src/main/java/core/CreditCardValidation.java:30:	No need to call String.valueOf to append to a string.
+src/main/java/core/CreditCardValidation.java:30:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/core/CreditCardValidation.java:30:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/core/CreditCardValidation.java:30:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/core/CreditCardValidation.java:30:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/core/CreditCardValidation.java:30:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/core/CreditCardValidation.java:30:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/core/CreditCardValidation.java:30:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/core/CreditCardValidation.java:30:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/core/CreditCardValidation.java:30:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/core/CreditCardValidation.java:30:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/core/CreditCardValidation.java:30:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/core/CreditCardValidation.java:30:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/core/CreditCardValidation.java:30:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/core/CreditCardValidation.java:34:	Parameter 'cc_cvv' is not assigned and could be declared final
+src/main/java/core/CreditCardValidation.java:34:	Parameter 'cc_type' is not assigned and could be declared final
+src/main/java/core/CreditCardValidation.java:34:	publicMethodCommentRequirement Required
+src/main/java/core/CreditCardValidation.java:35:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/core/CreditCardValidation.java:35:	Position literals first in String comparisons
+src/test/java/core/CreditCardValidationTest.java:9:	Each class should declare at least one constructor
+src/test/java/core/CreditCardValidationTest.java:9:	headerCommentRequirement Required
+src/test/java/core/CreditCardValidationTest.java:10:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/core/CreditCardValidationTest.java:10:	To avoid mistakes add a comment at the beginning of the csvFile field if you want a default access modifier
+src/test/java/core/CreditCardValidationTest.java:10:	Use explicit scoping instead of the default package private level
+src/test/java/core/CreditCardValidationTest.java:10:	fieldCommentRequirement Required
+src/test/java/core/CreditCardValidationTest.java:13:	publicMethodCommentRequirement Required
+src/test/java/core/CreditCardValidationTest.java:14:	Found 'DD'-anomaly for variable 'cvsLine' (lines '14'-'18').
+src/test/java/core/CreditCardValidationTest.java:15:	Avoid variables with short names like a
+src/test/java/core/CreditCardValidationTest.java:15:	Found 'DD'-anomaly for variable 'a' (lines '15'-'19').
+src/test/java/core/CreditCardValidationTest.java:15:	Found 'DU'-anomaly for variable 'a' (lines '15'-'24').
+src/test/java/core/CreditCardValidationTest.java:16:	Avoid variables with short names like al
+src/test/java/core/CreditCardValidationTest.java:16:	Local variable 'al' could be declared final
+src/test/java/core/CreditCardValidationTest.java:17:	Avoid variables with short names like br
+src/test/java/core/CreditCardValidationTest.java:17:	Local variable 'br' could be declared final
+src/test/java/core/CreditCardValidationTest.java:18:	Found 'DU'-anomaly for variable 'cvsLine' (lines '18'-'24').
+src/test/java/core/CreditCardValidationTest.java:19:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/core/CreditCardValidationTest.java:27:	Parameter 'cc_cvv' is not assigned and could be declared final
+src/test/java/core/CreditCardValidationTest.java:27:	Parameter 'cc_exp' is not assigned and could be declared final
+src/test/java/core/CreditCardValidationTest.java:27:	Parameter 'cc_number' is not assigned and could be declared final
+src/test/java/core/CreditCardValidationTest.java:27:	Parameter 'cc_type' is not assigned and could be declared final
+src/test/java/core/CreditCardValidationTest.java:27:	Rather than using a lot of String arguments, consider using a container object for those values.
+src/test/java/core/CreditCardValidationTest.java:27:	publicMethodCommentRequirement Required
+src/test/java/core/CreditCardValidationTest.java:33:	Parameter 'cc_cvv' is not assigned and could be declared final
+src/test/java/core/CreditCardValidationTest.java:33:	Parameter 'cc_exp' is not assigned and could be declared final
+src/test/java/core/CreditCardValidationTest.java:33:	Parameter 'cc_number' is not assigned and could be declared final
+src/test/java/core/CreditCardValidationTest.java:33:	Parameter 'cc_type' is not assigned and could be declared final
+src/test/java/core/CreditCardValidationTest.java:33:	Rather than using a lot of String arguments, consider using a container object for those values.
+src/test/java/core/CreditCardValidationTest.java:33:	publicMethodCommentRequirement Required
+src/test/java/core/CreditCardValidationTest.java:39:	Parameter 'cc_cvv' is not assigned and could be declared final
+src/test/java/core/CreditCardValidationTest.java:39:	Parameter 'cc_exp' is not assigned and could be declared final
+src/test/java/core/CreditCardValidationTest.java:39:	Parameter 'cc_number' is not assigned and could be declared final
+src/test/java/core/CreditCardValidationTest.java:39:	Parameter 'cc_type' is not assigned and could be declared final
+src/test/java/core/CreditCardValidationTest.java:39:	Rather than using a lot of String arguments, consider using a container object for those values.
+src/test/java/core/CreditCardValidationTest.java:39:	publicMethodCommentRequirement Required
+src/test/java/core/CreditCardValidationTest.java:45:	Parameter 'cc_cvv' is not assigned and could be declared final
+src/test/java/core/CreditCardValidationTest.java:45:	Parameter 'cc_exp' is not assigned and could be declared final
+src/test/java/core/CreditCardValidationTest.java:45:	Parameter 'cc_number' is not assigned and could be declared final
+src/test/java/core/CreditCardValidationTest.java:45:	Parameter 'cc_type' is not assigned and could be declared final
+src/test/java/core/CreditCardValidationTest.java:45:	Rather than using a lot of String arguments, consider using a container object for those values.
+src/test/java/core/CreditCardValidationTest.java:45:	publicMethodCommentRequirement Required
