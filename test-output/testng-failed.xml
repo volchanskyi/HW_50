@@ -5,9 +5,6 @@
     <classes>
       <class name="core.CreditCardValidationTest">
         <methods>
-          <include name="cvv" invocation-numbers="3"/>
-          <include name="luhn" invocation-numbers="4"/>
-          <include name="exp" invocation-numbers="0 2 3"/>
           <include name="type" invocation-numbers="1"/>
         </methods>
       </class> <!-- core.CreditCardValidationTest -->
