@@ -42,6 +42,11 @@ public class CreditCardValidationTest  {
 	
 	}
 	
+	@Test
+	public void test_05(){
+	    CreditCardValidation o = new CreditCardValidation();
+	}
+	
 
 	
 	
