@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="24" ignored="0" total="149" passed="125">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1681" started-at="2017-11-13T02:29:22Z" finished-at="2017-11-13T02:29:24Z">
+  <suite name="Default suite" duration-ms="1712" started-at="2017-11-13T03:49:10Z" finished-at="2017-11-13T03:49:12Z">
     <groups>
       <group name="cvv">
-        <method signature="CreditCardValidationTest.cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" class="core.CreditCardValidationTest"/>
+        <method signature="CreditCardValidationTest.cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" class="core.CreditCardValidationTest"/>
       </group> <!-- cvv -->
       <group name="exp">
-        <method signature="CreditCardValidationTest.exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" class="core.CreditCardValidationTest"/>
+        <method signature="CreditCardValidationTest.exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" class="core.CreditCardValidationTest"/>
       </group> <!-- exp -->
       <group name="type">
-        <method signature="CreditCardValidationTest.type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" class="core.CreditCardValidationTest"/>
+        <method signature="CreditCardValidationTest.type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" class="core.CreditCardValidationTest"/>
       </group> <!-- type -->
       <group name="luhn">
-        <method signature="CreditCardValidationTest.luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" class="core.CreditCardValidationTest"/>
+        <method signature="CreditCardValidationTest.luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" class="core.CreditCardValidationTest"/>
       </group> <!-- luhn -->
     </groups>
-    <test name="Default test" duration-ms="1681" started-at="2017-11-13T02:29:22Z" finished-at="2017-11-13T02:29:24Z">
+    <test name="Default test" duration-ms="1712" started-at="2017-11-13T03:49:10Z" finished-at="2017-11-13T03:49:12Z">
       <class name="core.CreditCardValidationTest">
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="177" started-at="2017-11-12T18:29:22Z" data-provider="dp" finished-at="2017-11-12T18:29:22Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="176" started-at="2017-11-12T19:49:10Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -45,7 +45,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="5" started-at="2017-11-12T18:29:22Z" data-provider="dp" finished-at="2017-11-12T18:29:22Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="5" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -71,7 +71,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="4" started-at="2017-11-12T18:29:22Z" data-provider="dp" finished-at="2017-11-12T18:29:22Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="4" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -97,7 +97,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="4" started-at="2017-11-12T18:29:22Z" data-provider="dp" finished-at="2017-11-12T18:29:22Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="4" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -123,7 +123,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="4" started-at="2017-11-12T18:29:22Z" data-provider="dp" finished-at="2017-11-12T18:29:22Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -149,7 +149,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="4" started-at="2017-11-12T18:29:22Z" data-provider="dp" finished-at="2017-11-12T18:29:22Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="4" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -175,7 +175,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="3" started-at="2017-11-12T18:29:22Z" data-provider="dp" finished-at="2017-11-12T18:29:22Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="6" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -201,7 +201,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="3" started-at="2017-11-12T18:29:22Z" data-provider="dp" finished-at="2017-11-12T18:29:22Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="4" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -227,7 +227,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="FAIL" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="11" started-at="2017-11-12T18:29:22Z" data-provider="dp" finished-at="2017-11-12T18:29:22Z">
+        <test-method status="FAIL" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="17" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -294,7 +294,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="4" started-at="2017-11-12T18:29:22Z" data-provider="dp" finished-at="2017-11-12T18:29:22Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="4" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -320,7 +320,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="4" started-at="2017-11-12T18:29:22Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -346,7 +346,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -372,7 +372,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="4" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -398,7 +398,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -424,7 +424,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="2" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -450,7 +450,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="4" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -476,7 +476,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="9" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -502,7 +502,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="5" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -528,7 +528,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="27" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -554,7 +554,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="8" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -580,7 +580,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="17" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -606,7 +606,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="12" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -632,7 +632,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="6" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -658,7 +658,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="11" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -684,7 +684,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="7" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -710,7 +710,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -736,7 +736,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -762,7 +762,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -788,7 +788,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -814,7 +814,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -840,7 +840,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -866,7 +866,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="2" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -892,7 +892,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="10" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -918,7 +918,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="21" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="2" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -944,7 +944,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="5" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -970,7 +970,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -996,7 +996,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="cvv" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="cvv" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1022,7 +1022,7 @@ Expected: Credit Card CVV: 1234, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cvv -->
-        <test-method status="FAIL" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="11" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="FAIL" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="22" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1089,7 +1089,7 @@ Expected: Credit Card Exp: 03/15, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="2" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="14" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1115,7 +1115,7 @@ Expected: Credit Card Exp: 03/15, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="4" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="6" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1141,7 +1141,7 @@ Expected: Credit Card Exp: 03/15, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="FAIL" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="FAIL" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="17" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1208,7 +1208,7 @@ Expected: Credit Card Exp: 03/16, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="FAIL" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="FAIL" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="11" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1275,7 +1275,7 @@ Expected: Credit Card Exp: 03/15, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="4" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="2" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1301,7 +1301,7 @@ Expected: Credit Card Exp: 03/15, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="5" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1327,7 +1327,7 @@ Expected: Credit Card Exp: 03/15, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="5" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1353,7 +1353,7 @@ Expected: Credit Card Exp: 03/15, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="4" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="2" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1379,7 +1379,7 @@ Expected: Credit Card Exp: 03/15, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1405,7 +1405,7 @@ Expected: Credit Card Exp: 03/15, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="2" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1431,7 +1431,7 @@ Expected: Credit Card Exp: 03/15, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1457,7 +1457,7 @@ Expected: Credit Card Exp: 03/15, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1483,7 +1483,7 @@ Expected: Credit Card Exp: 03/15, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="2" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="16" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1509,7 +1509,7 @@ Expected: Credit Card Exp: 03/15, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1535,7 +1535,7 @@ Expected: Credit Card Exp: 03/15, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="40" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="4" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1561,7 +1561,7 @@ Expected: Credit Card Exp: 03/15, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="50" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1587,7 +1587,7 @@ Expected: Credit Card Exp: 03/15, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="FAIL" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="FAIL" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="5" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1653,7 +1653,7 @@ Expected: Credit Card Exp: 02/16, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="5" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="5" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1679,7 +1679,7 @@ Expected: Credit Card Exp: 02/16, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="6" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1705,7 +1705,7 @@ Expected: Credit Card Exp: 02/16, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="5" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1731,7 +1731,7 @@ Expected: Credit Card Exp: 02/16, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="4" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="5" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1757,7 +1757,7 @@ Expected: Credit Card Exp: 02/16, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="9" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1783,7 +1783,7 @@ Expected: Credit Card Exp: 02/16, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1809,7 +1809,7 @@ Expected: Credit Card Exp: 02/16, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="4" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1835,7 +1835,7 @@ Expected: Credit Card Exp: 02/16, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="FAIL" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="4" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="FAIL" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="21" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1901,7 +1901,7 @@ Expected: Credit Card Exp: 04/15, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="FAIL" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="4" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="FAIL" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="8" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1967,7 +1967,7 @@ Expected: Credit Card Exp: 07/16, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="2" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -1993,7 +1993,7 @@ Expected: Credit Card Exp: 07/16, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="FAIL" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="FAIL" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="2" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -2059,7 +2059,7 @@ Expected: Credit Card Exp: 03/15, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="FAIL" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="FAIL" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="8" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -2125,7 +2125,7 @@ Expected: Credit Card Exp: 03/14, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="9" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -2151,7 +2151,7 @@ Expected: Credit Card Exp: 03/14, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="4" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="7" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -2177,7 +2177,7 @@ Expected: Credit Card Exp: 03/14, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="FAIL" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="FAIL" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -2243,7 +2243,7 @@ Expected: Credit Card Exp: 03/16, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="4" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -2269,7 +2269,7 @@ Expected: Credit Card Exp: 03/16, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="4" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -2295,7 +2295,7 @@ Expected: Credit Card Exp: 03/16, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="2" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -2321,7 +2321,7 @@ Expected: Credit Card Exp: 03/16, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="exp" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="exp" duration-ms="21" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -2347,7 +2347,7 @@ Expected: Credit Card Exp: 03/16, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="4" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="7" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -2373,7 +2373,7 @@ Expected: Credit Card Exp: 03/16, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="2" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="5" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -2399,7 +2399,7 @@ Expected: Credit Card Exp: 03/16, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="30" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="4" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -2425,7 +2425,7 @@ Expected: Credit Card Exp: 03/16, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="3" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -2451,7 +2451,7 @@ Expected: Credit Card Exp: 03/16, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="4" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="7" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -2477,7 +2477,7 @@ Expected: Credit Card Exp: 03/16, should be not expired
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="FAIL" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="40" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="FAIL" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="2" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -2544,7 +2544,7 @@ Expected: Luhn of: 37261536518254, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="42" started-at="2017-11-12T19:49:11Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -2570,7 +2570,7 @@ Expected: Luhn of: 37261536518254, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="FAIL" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="4" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="FAIL" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="7" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -2637,7 +2637,7 @@ Expected: Luhn of: 3561598966880, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="4" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -2663,7 +2663,7 @@ Expected: Luhn of: 3561598966880, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="3" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -2689,7 +2689,7 @@ Expected: Luhn of: 3561598966880, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="3" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -2715,7 +2715,7 @@ Expected: Luhn of: 3561598966880, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="4" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="3" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -2741,7 +2741,7 @@ Expected: Luhn of: 3561598966880, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="3" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -2767,7 +2767,7 @@ Expected: Luhn of: 3561598966880, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="3" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -2793,7 +2793,7 @@ Expected: Luhn of: 3561598966880, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="4" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="10" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -2819,7 +2819,7 @@ Expected: Luhn of: 3561598966880, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="20" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="5" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -2845,7 +2845,7 @@ Expected: Luhn of: 3561598966880, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="FAIL" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="4" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="FAIL" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -2911,7 +2911,7 @@ Expected: Luhn of: 601156785254340, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="5" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -2937,7 +2937,7 @@ Expected: Luhn of: 601156785254340, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="21" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -2963,7 +2963,7 @@ Expected: Luhn of: 601156785254340, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="5" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="13" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -2989,7 +2989,7 @@ Expected: Luhn of: 601156785254340, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="4" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="28" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3015,7 +3015,7 @@ Expected: Luhn of: 601156785254340, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="15" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="3" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3041,7 +3041,7 @@ Expected: Luhn of: 601156785254340, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="4" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="6" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3067,7 +3067,7 @@ Expected: Luhn of: 601156785254340, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="4" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3093,7 +3093,7 @@ Expected: Luhn of: 601156785254340, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="4" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3119,7 +3119,7 @@ Expected: Luhn of: 601156785254340, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="FAIL" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="FAIL" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3185,7 +3185,7 @@ Expected: Luhn of: 516866660165885, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="5" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3211,7 +3211,7 @@ Expected: Luhn of: 516866660165885, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="2" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3237,7 +3237,7 @@ Expected: Luhn of: 516866660165885, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="2" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3263,7 +3263,7 @@ Expected: Luhn of: 516866660165885, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3289,7 +3289,7 @@ Expected: Luhn of: 516866660165885, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="FAIL" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="2" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="FAIL" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3355,7 +3355,7 @@ Expected: Luhn of: 491680232637, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="6" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3381,7 +3381,7 @@ Expected: Luhn of: 491680232637, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="2" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="4" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3407,7 +3407,7 @@ Expected: Luhn of: 491680232637, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="2" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="3" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3433,7 +3433,7 @@ Expected: Luhn of: 491680232637, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="2" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="5" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3459,7 +3459,7 @@ Expected: Luhn of: 491680232637, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="2" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="4" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3485,7 +3485,7 @@ Expected: Luhn of: 491680232637, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="luhn" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="luhn" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3511,11 +3511,11 @@ Expected: Luhn of: 491680232637, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luhn -->
-        <test-method status="PASS" signature="test_05()[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="test_05" duration-ms="2" started-at="2017-11-12T18:29:23Z" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="test_05()[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="test_05" duration-ms="2" started-at="2017-11-12T19:49:12Z" finished-at="2017-11-12T19:49:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_05 -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="2" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="3" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3541,7 +3541,7 @@ Expected: Luhn of: 491680232637, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="2" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="3" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3567,7 +3567,7 @@ Expected: Luhn of: 491680232637, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="2" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="5" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3593,7 +3593,7 @@ Expected: Luhn of: 491680232637, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="3" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3619,7 +3619,7 @@ Expected: Luhn of: 491680232637, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="62" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="3" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3645,7 +3645,7 @@ Expected: Luhn of: 491680232637, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="FAIL" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="3" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="FAIL" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="4" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3712,7 +3712,7 @@ Expected: Credit Card Type: American Express, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="2" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="6" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3738,7 +3738,7 @@ Expected: Credit Card Type: American Express, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="FAIL" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="2" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="FAIL" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="4" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3805,7 +3805,7 @@ Expected: Credit Card Type: American Express, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="FAIL" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="2" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="FAIL" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="4" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3872,7 +3872,7 @@ Expected: Credit Card Type: American Expres, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="2" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="3" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3898,7 +3898,7 @@ Expected: Credit Card Type: American Expres, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="2" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="3" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3924,7 +3924,7 @@ Expected: Credit Card Type: American Expres, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="2" started-at="2017-11-12T18:29:23Z" data-provider="dp" finished-at="2017-11-12T18:29:23Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3950,7 +3950,7 @@ Expected: Credit Card Type: American Expres, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="6" started-at="2017-11-12T18:29:24Z" data-provider="dp" finished-at="2017-11-12T18:29:24Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -3976,7 +3976,7 @@ Expected: Credit Card Type: American Expres, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="3" started-at="2017-11-12T18:29:24Z" data-provider="dp" finished-at="2017-11-12T18:29:24Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="6" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -4002,7 +4002,7 @@ Expected: Credit Card Type: American Expres, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="22" started-at="2017-11-12T18:29:24Z" data-provider="dp" finished-at="2017-11-12T18:29:24Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -4028,7 +4028,7 @@ Expected: Credit Card Type: American Expres, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="FAIL" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="3" started-at="2017-11-12T18:29:24Z" data-provider="dp" finished-at="2017-11-12T18:29:24Z">
+        <test-method status="FAIL" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="13" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -4095,7 +4095,7 @@ Expected: Credit Card Type: Discov, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="FAIL" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="8" started-at="2017-11-12T18:29:24Z" data-provider="dp" finished-at="2017-11-12T18:29:24Z">
+        <test-method status="FAIL" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -4161,7 +4161,7 @@ Expected: Credit Card Type: Discover, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="2" started-at="2017-11-12T18:29:24Z" data-provider="dp" finished-at="2017-11-12T18:29:24Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -4187,7 +4187,7 @@ Expected: Credit Card Type: Discover, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="3" started-at="2017-11-12T18:29:24Z" data-provider="dp" finished-at="2017-11-12T18:29:24Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -4213,7 +4213,7 @@ Expected: Credit Card Type: Discover, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="2" started-at="2017-11-12T18:29:24Z" data-provider="dp" finished-at="2017-11-12T18:29:24Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="3" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -4239,7 +4239,7 @@ Expected: Credit Card Type: Discover, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="12" started-at="2017-11-12T18:29:24Z" data-provider="dp" finished-at="2017-11-12T18:29:24Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -4265,7 +4265,7 @@ Expected: Credit Card Type: Discover, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="FAIL" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="4" started-at="2017-11-12T18:29:24Z" data-provider="dp" finished-at="2017-11-12T18:29:24Z">
+        <test-method status="FAIL" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="3" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -4331,7 +4331,7 @@ Expected: Credit Card Type: MasterCar, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="5" started-at="2017-11-12T18:29:24Z" data-provider="dp" finished-at="2017-11-12T18:29:24Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="3" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -4357,7 +4357,7 @@ Expected: Credit Card Type: MasterCar, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="2" started-at="2017-11-12T18:29:24Z" data-provider="dp" finished-at="2017-11-12T18:29:24Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -4383,7 +4383,7 @@ Expected: Credit Card Type: MasterCar, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="2" started-at="2017-11-12T18:29:24Z" data-provider="dp" finished-at="2017-11-12T18:29:24Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -4409,7 +4409,7 @@ Expected: Credit Card Type: MasterCar, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="FAIL" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="3" started-at="2017-11-12T18:29:24Z" data-provider="dp" finished-at="2017-11-12T18:29:24Z">
+        <test-method status="FAIL" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -4475,7 +4475,7 @@ Expected: Credit Card Type: MasterCard, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="5" started-at="2017-11-12T18:29:24Z" data-provider="dp" finished-at="2017-11-12T18:29:24Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -4501,7 +4501,7 @@ Expected: Credit Card Type: MasterCard, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="4" started-at="2017-11-12T18:29:24Z" data-provider="dp" finished-at="2017-11-12T18:29:24Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -4527,7 +4527,7 @@ Expected: Credit Card Type: MasterCard, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="FAIL" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="5" started-at="2017-11-12T18:29:24Z" data-provider="dp" finished-at="2017-11-12T18:29:24Z">
+        <test-method status="FAIL" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -4593,7 +4593,7 @@ Expected: Credit Card Type: VIS, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="6" started-at="2017-11-12T18:29:24Z" data-provider="dp" finished-at="2017-11-12T18:29:24Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -4619,7 +4619,7 @@ Expected: Credit Card Type: VIS, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="FAIL" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="4" started-at="2017-11-12T18:29:24Z" data-provider="dp" finished-at="2017-11-12T18:29:24Z">
+        <test-method status="FAIL" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -4685,7 +4685,7 @@ Expected: Credit Card Type: VISA, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="5" started-at="2017-11-12T18:29:24Z" data-provider="dp" finished-at="2017-11-12T18:29:24Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -4711,7 +4711,7 @@ Expected: Credit Card Type: VISA, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="4" started-at="2017-11-12T18:29:24Z" data-provider="dp" finished-at="2017-11-12T18:29:24Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -4737,7 +4737,7 @@ Expected: Credit Card Type: VISA, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="4" started-at="2017-11-12T18:29:24Z" data-provider="dp" finished-at="2017-11-12T18:29:24Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -4763,7 +4763,7 @@ Expected: Credit Card Type: VISA, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="4" started-at="2017-11-12T18:29:24Z" data-provider="dp" finished-at="2017-11-12T18:29:24Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -4789,7 +4789,7 @@ Expected: Credit Card Type: VISA, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="4" started-at="2017-11-12T18:29:24Z" data-provider="dp" finished-at="2017-11-12T18:29:24Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="2" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
@@ -4815,7 +4815,7 @@ Expected: Credit Card Type: VISA, should be valid
           <reporter-output>
           </reporter-output>
         </test-method> <!-- type -->
-        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@34989ceb]" name="type" duration-ms="4" started-at="2017-11-12T18:29:24Z" data-provider="dp" finished-at="2017-11-12T18:29:24Z">
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@61fb3dae]" name="type" duration-ms="3" started-at="2017-11-12T19:49:12Z" data-provider="dp" finished-at="2017-11-12T19:49:12Z">
           <params>
             <param index="0">
               <value>
